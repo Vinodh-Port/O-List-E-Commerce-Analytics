@@ -48,3 +48,10 @@ The dashboard is structured into three specialized views, connected seamlessly t
   * *Insight: Medium and High-value segments combined fuel over 91% of the total revenue flow.*
 * **Top 10 Products by Sales Volume:** *cama mesa banho* leads with **3.0K items sold**, followed by *esporte lazer* (**2.9K**), and *moveis decoracao* (**2.7K**).
 
+---
+
+## 🛠️ Technical Implementation
+
+* **Data Modeling:** Built a clean Star Schema linking factual transaction tables with geographic and product dimension tables.
+* **SQL to DAX Transition:** Ported logical segmentations (originally formulated using SQL `CASE WHEN` and conditional aggregation scripts) into highly dynamic calculated columns and measures.
+* **UX/UI Best Practices:** Applied a cohesive, color-coordinated palette, consistent container structures, and custom action-based Page Navigation buttons to provide an effortless end-user experience.
